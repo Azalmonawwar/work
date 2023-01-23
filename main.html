@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <section class="container">
+    <header class="head">
+        <nav class="navbar ">
+            <h1 class="logo">
+                SONIC 9X
+            </h1>
+
+            <ul class="nav__list" id="nav">
+                <li class="nav__items">HOME</li>
+                <li class="nav__items">STORE</li>
+                <li class="nav__items">MANGA</li>
+                <li class="nav__items">CONTACT</li>
+                
+            </ul>
+            <a href="#">Subscribe</a>
+
+            <div  id="menu">
+                    <i  class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main-container">
+        <div class="content">
+            <h3 >WELCOME</h3>
+            <P>TO</P>
+            <h1>SONIC 9X</h1>
+            <P>Then, draw another perpendicular line segment connecting the two lines. The length of the line segment will be exactly the same as the first one if the lines are parallel.</P>
+        </div>
+        <div class="img-container">
+            <div class="img"></div>
+        </div>
+    </div>
+</section>
+
+<script>
+
+    let menu = document.getElementById('menu');
+    let nav = document.getElementById('nav');
+    menu.addEventListener('click',myFunction);
+
+    function myFunction() {
+        nav.classList.toggle('show');
+    }
+    
+</script>
+
+</body>
+</html>
